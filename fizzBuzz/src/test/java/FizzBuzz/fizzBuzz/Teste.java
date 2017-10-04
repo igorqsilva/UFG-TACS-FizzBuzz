@@ -10,9 +10,9 @@ public class Teste {
 		
 		FizzBuzz fizzBuzz = new FizzBuzz();
 		
-		Assert.assertEquals("Fizz", fizzBuzz.ehFizzBuzz(66));
-		Assert.assertEquals("Buzz", fizzBuzz.ehFizzBuzz(65));
-		Assert.assertEquals("FizzBuzz", fizzBuzz.ehFizzBuzz(90));
+		Assert.assertEquals("Fizz", fizzBuzz.ehFizzBuzz(39));
+		Assert.assertEquals("Buzz", fizzBuzz.ehFizzBuzz(35));
+		Assert.assertEquals("FizzBuzz", fizzBuzz.ehFizzBuzz(75));
 		Assert.assertEquals("Continua o jogo", fizzBuzz.ehFizzBuzz(1));
 	}
 }
